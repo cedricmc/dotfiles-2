@@ -177,7 +177,7 @@ function clone_dotfiles_repo() {
         pull_latest $DOTFILES_REPO
         success "Pull successful in ${DOTFILES_REPO} repository"
     else
-        url=https://github.com/sam-hosseini/dotfiles.git
+        url=https://github.com/cedricmc/dotfiles-2.git
         if git clone "$url" $DOTFILES_REPO && \
            git -C $DOTFILES_REPO remote set-url origin git@github.com:cedricmc/dotfiles-2.git; then
             success "Dotfiles repository cloned into ${DOTFILES_REPO}"
