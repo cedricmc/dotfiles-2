@@ -7,7 +7,7 @@ cask "bartender"
 cask "caffeine"
 cask "docker"
 #cask "dropbox"
-#cask "fantastical"
+cask "fantastical"
 cask "firefox"
 cask "font-fira-mono-for-powerline" # for iTerm2 powerline
 #cask "fork"
