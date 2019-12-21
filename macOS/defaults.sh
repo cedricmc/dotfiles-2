@@ -5,7 +5,7 @@ main() {
     configure_numi
     configure_iterm2
     configure_system
-    configure_dock
+    #configure_dock
     configure_finder
 }
 
