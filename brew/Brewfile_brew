@@ -4,6 +4,7 @@ brew "bat"
 brew "cmake" # for YouCompleteMe vim plugin
 brew "coreutils" # for awesome commands like timeout
 brew "diff-so-fancy"
+brew "faas-cli"
 brew "ffmpeg" # for being able to manipulate videos for example
 brew "fish"
 brew "flake8" # for linting Python files
@@ -15,7 +16,11 @@ brew "htop"
 brew "httpie"
 brew "imagemagick"
 brew "jq"
+brew "kubernetes-cli"
+brew "kubectx"
+brew "kustomize"
 brew "mas"
+brew "minikube"
 brew "mongodb-community"
 brew "node"
 brew "openssl"
