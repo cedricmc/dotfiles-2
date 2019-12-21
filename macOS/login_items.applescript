@@ -3,7 +3,7 @@ set login_item_list to {¬
     "Alfred 4",¬
     "Bartender 3",¬
     "Docker",¬
-    "Dropbox",¬
+    #"Dropbox",¬
     "Fantastical 2",¬
     "Hammerspoon",¬
     "NordVPN",¬
