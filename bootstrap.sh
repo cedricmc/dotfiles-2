@@ -6,13 +6,13 @@ main() {
     clone_dotfiles_repo
     #install_homebrew
     install_packages_with_brewfile
-    #change_shell_to_fish
+    change_shell_to_fish
     install_pip_packages
     install_yarn_packages
     setup_symlinks # needed for setup_vim and setup_tmux
-    #setup_vim
-    #setup_tmux
-    #update_hosts_file
+    setup_vim
+    setup_tmux
+    update_hosts_file
     #setup_macOS_defaults
     #update_login_items
 }
