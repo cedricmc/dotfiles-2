@@ -4,17 +4,17 @@ main() {
     ask_for_sudo
     install_xcode_command_line_tools # to get "git", needed for clone_dotfiles_repo
     clone_dotfiles_repo
-    install_homebrew
+    #install_homebrew
     install_packages_with_brewfile
-    change_shell_to_fish
+    #change_shell_to_fish
     install_pip_packages
     install_yarn_packages
     setup_symlinks # needed for setup_vim and setup_tmux
-    setup_vim
-    setup_tmux
-    update_hosts_file
-    setup_macOS_defaults
-    update_login_items
+    #setup_vim
+    #setup_tmux
+    #update_hosts_file
+    #setup_macOS_defaults
+    #update_login_items
 }
 
 DOTFILES_REPO=~/personal/dotfiles
@@ -70,7 +70,7 @@ function install_packages_with_brewfile() {
     TAP=${DOTFILES_REPO}/brew/Brewfile_tap
     BREW=${DOTFILES_REPO}/brew/Brewfile_brew
     CASK=${DOTFILES_REPO}/brew/Brewfile_cask
-    MAS=${DOTFILES_REPO}/brew/Brewfile_mas
+    #MAS=${DOTFILES_REPO}/brew/Brewfile_mas
 
     if hash parallel 2>/dev/null; then
         substep "parallel already exists"
